@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const apiKey = "YOUR_API_KEY";
+  const apiKey = "fc598b6a4d65a95e4d481065c9123c43";
 
   function fetchWeather(city) {
     const queryURL = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=${apiKey}`;
