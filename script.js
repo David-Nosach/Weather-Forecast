@@ -27,7 +27,7 @@ $(document).ready(function () {
   }
 
   function displayForecast(data) {
-    let forecastHTML = "<h2>5-Day Forecast:</h2>";
+    let forecastHTML = "";
     for (let i = 1; i < data.list.length; i += 8) {
       const day = data.list[i];
       const weatherIcon = `https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`;

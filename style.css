@@ -56,6 +56,18 @@ body {
   margin-top: 20px;
 }
 
+#search-history button {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #edf2f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
 .weather-dashboard {
   flex: 3;
   padding: 20px;
@@ -71,8 +83,7 @@ body {
 }
 
 #forecast {
-  display: flex;
-  justify-content: space-between;
+  margin-top: 20px;
 }
 
 #forecast div {
@@ -81,4 +92,10 @@ body {
   border-radius: 8px;
   width: 18%;
   text-align: center;
+  margin-right: 10px;
+}
+
+.forecast-days {
+  display: flex;
+  justify-content: space-between;
 }
