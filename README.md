@@ -4,7 +4,7 @@
 
 The Weather Forecast is a web application that provides current and future weather conditions for various cities. The application utilizes the OpenWeather API to fetch weather data and dynamically updates the HTML and CSS to display this information. Users can search for a city to see its weather forecast, view past search history, and click on previously searched cities to see their weather again.
 
-Live-Link: http://127.0.0.1:5500/index.html
+Live-Link: [http://127.0.0.1:5500/index.html](https://david-nosach.github.io/Weather-Forecast/)
 
 ## Features
 
